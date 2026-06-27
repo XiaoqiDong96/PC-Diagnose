@@ -1,0 +1,50 @@
+# macOS / editor noise
+.DS_Store
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+.venv_*/
+venv/
+env/
+
+# Patient data and generated analysis artifacts
+data/
+tables/
+figures/
+ppt_ready_figures/
+ppt_ready_materials/
+models/
+outputs/
+
+# Generated documents and source workbooks
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.json
+*.pdf
+*.html
+*.ppt
+*.pptx
+
+# Packaged app/build artifacts
+build/
+dist/
+dist_intel/
+*.app/
+*.dmg
+*.zip
+*.tar.gz
+
+# PyInstaller local state
+*.manifest
